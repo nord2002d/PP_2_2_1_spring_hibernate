@@ -14,11 +14,11 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String madel;
+    private String model;
     private int series;
 
-    public Car(String madel, int series) {
-        this.madel = madel;
+    public Car(String model, int series) {
+        this.model = model;
         this.series = series;
     }
 }
